@@ -61,3 +61,5 @@ wevtutil.exe cl %1
 goto :eof
 cls
 echo Successful
+timeout 3 /nobreak > nul
+exit /b
